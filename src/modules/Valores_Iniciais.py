@@ -65,9 +65,9 @@ class Valores_Iniciais:
 
     VALORES_INICIAIS_BATERIAS = SimpleNamespace(
         # Dados do site da DOE
-        CHUMBO_ACIDO_KW=2194,
-        CHUMBO_ACIDO_VIDA_UTIL=3,
-        CHUMBO_ACIDO_KWh=549,
+        CHUMBO_ACIDO_KW=2220,
+        CHUMBO_ACIDO_VIDA_UTIL=2,
+        CHUMBO_ACIDO_KWh=550,
 
         LI_ION_KW=1876,
         LI_ION_VIDA_UTIL=10,
