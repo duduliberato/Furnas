@@ -7,53 +7,53 @@ class Valores_Iniciais:
     VALORES_INICIAIS = SimpleNamespace(
 
         # taxa de inflação em dólares corrigida  https://www.bls.gov/data/inflation_calculator.htm
-        MULTIPLICADOR_INFLACAO_2012=1.35,
-        MULTIPLICADOR_INFLACAO_2019=1.22,
+        MULTIPLICADOR_INFLACAO_2012=1.6,
+        MULTIPLICADOR_INFLACAO_2019=1.2,
         # Transformação de BTU/ft^3 (BTU sobre pé cubico) para MJ/m^3 (Megajoule sobre metro cúbico)
         # Encontrado em: https://www.eia.gov/energyexplained/units-and-calculators/energy-conversion-calculators.php
         METRO_CUBICO_PARA_PES=35.3,
         # Taxa de juros de 5% ao ano
-        TAXA_DE_JUROS=0.05,
+        TAXA_DE_JUROS=0.1,
         # Considerando que o preço do pé cúbico do gás natural é 0,27051 USD
         # De acordo com: https://www.eia.gov/dnav/ng/hist/n3035us3A.htm
-        PRECO_GAS_NATURAL=7.66,
+        PRECO_GAS_NATURAL=9.8,
         # Tempo para pagar o valor da turbina em 20 anos de 12 meses
-        TEMPO_PAGAR_TURBINA=20 * 12,
+        TEMPO_PAGAR_TURBINA=10 * 12,
 
         # Para a CCGT - modelo GE 7HA.01 Combined Cycle 1x1: https://www.ge.com/gas-power/products/gas-turbinas/7ha
-        CCGT_POTENCIA=430,  # MW
-        CCGT_CUSTO_TOTAL=1084,  # $/kW
-        CCGT_CUSTO_OM=14.1 * 1000,  # US$/MW por ano
-        CCGT_EFICIENCIA=0.623,  # 62.3%
-        CCGT_TEMPO_HOT_START=105,  # Minutos
-        CCGT_TEMPO_WARM_START=105,  # Minutos
-        CCGT_TEMPO_COLD_START=105,  # Minutos
+        CCGT_POTENCIA=400,  # MW
+        CCGT_CUSTO_TOTAL=1100,  # $/kW
+        CCGT_CUSTO_OM=15 * 1000,  # US$/MW por ano
+        CCGT_EFICIENCIA=0.6,  # 62.3%
+        CCGT_TEMPO_HOT_START=100,  # Minutos
+        CCGT_TEMPO_WARM_START=100,  # Minutos
+        CCGT_TEMPO_COLD_START=100,  # Minutos
         CCGT_CUSTO_HOT_START=35,  # $/MW
         CCGT_CUSTO_WARM_START=55,  # $/MW
-        CCGT_CUSTO_COLD_START=79,  # $/MW
+        CCGT_CUSTO_COLD_START=80,  # $/MW
 
         # Para a Aero GT - modelo GE LM600: https://www.ge.com/gas-power/products/gas-turbinas/lm6000
-        AERO_POTENCIA=106,  # MW
-        AERO_CUSTO_TOTAL=1175,  # $/kW
+        AERO_POTENCIA=100,  # MW
+        AERO_CUSTO_TOTAL=1200,  # $/kW
         AERO_CUSTO_OM=16.3 * 1000,  # US$/MW por ano
-        AERO_EFICIENCIA=0.408,  # 40.8%
+        AERO_EFICIENCIA=0.4,  # 40.8%
         AERO_TEMPO_HOT_START=2,  # Minutos
         AERO_TEMPO_WARM_START=4,  # Minutos
         AERO_TEMPO_COLD_START=5,  # Minutos
-        AERO_CUSTO_HOT_START=19,  # $/MW
-        AERO_CUSTO_WARM_START=24,  # $/MW
-        AERO_CUSTO_COLD_START=32,  # $/MW
+        AERO_CUSTO_HOT_START=20,  # $/MW
+        AERO_CUSTO_WARM_START=25,  # $/MW
+        AERO_CUSTO_COLD_START=30,  # $/MW
 
         # Para a Heavy Duty - modelo GE 7F.05: https://www.ge.com/gas-power/products/gas-turbinas/7f
-        HEAVY_DUTY_POTENCIA=239,  # MW
-        HEAVY_DUTY_CUSTO_TOTAL=713,  # $/kW
+        HEAVY_DUTY_POTENCIA=240,  # MW
+        HEAVY_DUTY_CUSTO_TOTAL=700,  # $/kW
         HEAVY_DUTY_CUSTO_OM=7 * 1000,  # US$/MW por ano
-        HEAVY_DUTY_EFICIENCIA=0.385,  # 38.5%
+        HEAVY_DUTY_EFICIENCIA=0.4,  # 38.5%
         HEAVY_DUTY_TEMPO_HOT_START=20,  # Minutos
         HEAVY_DUTY_TEMPO_WARM_START=25,  # Minutos
         HEAVY_DUTY_TEMPO_COLD_START=25,  # Minutos
-        HEAVY_DUTY_CUSTO_HOT_START=36,  # $/MW
-        HEAVY_DUTY_CUSTO_WARM_START=58,  # $/MW
+        HEAVY_DUTY_CUSTO_HOT_START=35,  # $/MW
+        HEAVY_DUTY_CUSTO_WARM_START=60,  # $/MW
         HEAVY_DUTY_CUSTO_COLD_START=75,  # $/MW
 
         # Fontes:
