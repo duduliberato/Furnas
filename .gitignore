@@ -1,0 +1,13 @@
+projeto.ipynb
+format.py
+.ipynb_checkpoints/
+__pycache__
+projeto-checkpoint.ipynb
+.vscode/
+src/format.py
+src/.DS_Store
+src/venv
+src/__pycache__
+src/modules/__pycache__
+imagens/
+venv/
